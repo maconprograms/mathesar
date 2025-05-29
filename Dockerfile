@@ -44,8 +44,8 @@ ENV PATH=$PATH:/usr/lib/postgresql/$PG_MAJOR/bin
 ENV PGDATA=/var/lib/postgresql/mathesar
 ENV MATHESAR_DOCKER_IMAGE='true'
 
-VOLUME /etc/postgresql/
-VOLUME /var/lib/postgresql/
+#VOLUME /etc/postgresql/
+#VOLUME /var/lib/postgresql/
 
 EXPOSE 5432
 
